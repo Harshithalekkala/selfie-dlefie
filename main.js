@@ -15,8 +15,8 @@ recognition.onresult=function run(event){
 function speak() {
    var synth=window.SpeechSynthesis;
    speak_data=document.getElementById("text-box").value;
-   var utterthis=new SpeechSynthesisUtterance(speak_data);
-   synth.speak(utterthis);
+   var utterThis=new SpeechSynthesisUtterance(speak_data);
+   synth.speak(utterThis);
    Webcam.attach(camera);
 }
 
